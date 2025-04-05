@@ -1,0 +1,155 @@
+.banner-container {
+  width: 100%;
+  
+  position: relative;
+}
+
+.slick-slider {
+  width: 100%;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.banner-img {
+  margin-top: 70px;
+  width: 110%;
+  height: 300px; /* Adjust height as needed */
+  object-fit: auto; /* Ensures full image visibility */
+}
+
+
+.home-page h1 {
+  color: gray;
+  font-family: "Playfair Display", serif;
+}
+
+.home-page {
+  display: flex;
+ 
+
+}
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+  
+}
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+}
+.home-page button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home-page .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.home-page .card img:hover {
+  transform: scale(0.9);
+}
+
+.home-page .card-img-top {
+  height: 300px !important;
+}
+/* ==================
+filters
+============== */
+.filters h4 {
+  margin-top: 100px;
+  color: gray !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+  width: 12rem;
+  font-size: 20px;
+}
+
+.ant-checkbox-wrapper:first-of-type {
+  margin-left: 1px;
+}
+
+.ant-checkbox-wrapper {
+  margin: 1px;
+}
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 0px;
+}
+
+.filters button {
+  background-color: black;
+  width: 70%;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.loadmore {
+  color: green;
+  font-weight: bold;
+  font-size: 20px !important;
+} 
+
+
+/* Lead Form Styles */
+.lead-form-container {
+  max-width: 300px;
+  
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lead-form-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.lead-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.lead-form-container input,
+.lead-form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.lead-form-container textarea {
+  height: 100px;
+}
+
+.lead-form-container button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.lead-form-container button:hover {
+  background-color: #218838;
+}
